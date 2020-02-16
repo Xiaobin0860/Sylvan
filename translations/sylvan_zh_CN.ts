@@ -1749,13 +1749,6 @@ Do you want to save?</source>
     </message>
 </context>
 <context>
-    <name>PgnGame</name>
-    <message>
-        <source>, </source>
-        <translation type="vanished">，</translation>
-    </message>
-</context>
-<context>
     <name>PgnGameEntryModel</name>
     <message>
         <location filename="../projects/gui/src/pgngameentrymodel.cpp" line="169"/>
@@ -2595,42 +2588,6 @@ Do you want to save?</source>
         <location filename="../projects/lib/src/board/westernboard.cpp" line="42"/>
         <source>king</source>
         <translation>帅（将）</translation>
-    </message>
-    <message>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="237"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="259"/>
-        <source>B</source>
-        <translation>后</translation>
-    </message>
-    <message>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="240"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="256"/>
-        <source>F</source>
-        <translation>前</translation>
-    </message>
-    <message>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="275"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="296"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="320"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="344"/>
-        <source>=</source>
-        <translation>平</translation>
-    </message>
-    <message>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="280"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="304"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="327"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="354"/>
-        <source>+</source>
-        <translation>进</translation>
-    </message>
-    <message>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="283"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="301"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="330"/>
-        <location filename="../projects/lib/src/board/westernboard.cpp" line="351"/>
-        <source>-</source>
-        <translation>退</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/board/westernboard.cpp" line="812"/>

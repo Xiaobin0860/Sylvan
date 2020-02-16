@@ -234,10 +234,10 @@ QString WesternBoard::standardMoveString(const Move& move)
             if (mpiece.side() == side) {
                 if (mpiece.type() == chessType) {
                     if (side == Side::Red) {
-                        stQH = tr("B");
+                        stQH = "后";
                     }
                     else {
-                        stQH = tr("F");
+                        stQH = "前";
                     }
                     isQH = true;
                     goto QH_BRANCH;
@@ -253,10 +253,10 @@ QString WesternBoard::standardMoveString(const Move& move)
             if (mpiece.side() == side) {
                 if (mpiece.type() == chessType) {
                     if (side == Side::Red) {
-                        stQH = tr("F");
+                        stQH = "前";
                     }
                     else {
-                        stQH = tr("B");
+                        stQH = "后";
                     }
                     isQH = true;
                     goto QH_BRANCH;
@@ -272,15 +272,15 @@ QH_BRANCH:
         if (side == Side::Red) {
             str += strnumName[chessType];
             if (ty == fy) {
-                str += tr("=");
+                str += "平";
                 str += strnumCn[10 - (tx + 1)];
             }
             else {
                 if (target < source) {
-                    str += tr("+");
+                    str += "进";
                 }
                 else {
-                    str += tr("-");
+                    str += "退";
                 }
                 if (chessType == Elephant || chessType == Guard || chessType == Horse) {
                     str += strnumCn[10 - (tx + 1)];
@@ -293,15 +293,15 @@ QH_BRANCH:
         else {
             str += strnumName[chessType + 7];
             if (ty == fy) {
-                str += tr("=");
+                str += "平";
                 str += strnumEn[(tx + 1)];
             }
             else {
                 if (target < source) {
-                    str += tr("-");
+                    str += "退";
                 }
                 else {
-                    str += tr("+");
+                    str += "进";
                 }
                 if (chessType == Elephant || chessType == Guard || chessType == Horse) {
                     str += strnumEn[(tx + 1)];
@@ -317,17 +317,17 @@ QH_BRANCH:
             if (ty == fy) {
                 str = strnumName[chessType];
                 str += strnumCn[10 - (fx + 1)];
-                str += tr("=");
+                str += "平";
                 str += strnumCn[10 - (tx + 1)];
             }
             else {
                 str = strnumName[chessType];
                 str += strnumCn[10 - (fx + 1)];
                 if (target < source) {
-                    str += tr("+");
+                    str += "进";
                 }
                 else {
-                    str += tr("-");
+                    str += "退";
                 }
                 if (chessType == Elephant || chessType == Guard || chessType == Horse) {
                     str += strnumCn[10 - (tx + 1)];
@@ -341,17 +341,17 @@ QH_BRANCH:
             if (ty == fy) {
                 str = strnumName[chessType + 7];
                 str += strnumEn[(fx + 1)];
-                str += tr("=");
+                str += "平";
                 str += strnumEn[(tx + 1)];
             }
             else {
                 str = strnumName[chessType + 7];
                 str += strnumEn[(fx + 1)];
                 if (target < source) {
-                    str += tr("-");
+                    str += "退";
                 }
                 else {
-                    str += tr("+");
+                    str += "进";
                 }
                 if (chessType == Elephant || chessType == Guard || chessType == Horse) {
                     str += strnumEn[(tx + 1)];
