@@ -111,7 +111,7 @@ bool parseEngine(const QStringList& args, EngineData& data)
 				data.config.setProtocol(val);
 			else
 			{
-				qWarning()<< "Usupported chess protocol:" << val;
+				qWarning()<< "Unsupported chess protocol:" << val;
 				return false;
 			}
 		}
