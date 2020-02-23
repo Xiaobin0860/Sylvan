@@ -631,7 +631,7 @@ EngineMatch* parseMatch(const QStringList& args, QObject* parent)
 		if (engine.config.command().isEmpty())
 		{
 			ok = false;
-			qCritical("missing chess engine command");
+            qCritical("Missing chess engine command");
 			break;
 		}
 
