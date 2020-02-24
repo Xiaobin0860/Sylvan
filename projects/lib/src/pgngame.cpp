@@ -310,27 +310,15 @@ bool PgnGame::write(QTextStream& out, PgnMode mode) const
         if (mode == Verbose && !data.comment.isEmpty())
             str += QString(" {%1}").arg(data.comment);
 
-        if (m_moves.size() % 2)
-        {
-            out << "\n" << str;
-            lineLength = str.size();
-        }
-        else
-        {
-            out << " " << str;
-            lineLength += str.size() + 1;
-        }
+        out << "\n" << str;
+        lineLength = str.size();
 
         side = !side;
     }
 
     str = m_tags.value("Result");
 
-    if (lineLength + str.size() >= 80)
-        out << "\n" << str << "\n\n";
-    else
-        out << " " << str << "\n\n";
-
+    out << "\n" << str << "\n\n";
     out.flush();
 
     return (out.status() == QTextStream::Ok);

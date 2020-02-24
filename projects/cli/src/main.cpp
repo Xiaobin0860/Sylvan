@@ -107,11 +107,11 @@ bool parseEngine(const QStringList& args, EngineData& data)
 			data.config.addArgument(val);
 		else if (name == "proto")
 		{
-			if (EngineFactory::protocols().contains(val))
-				data.config.setProtocol(val);
+            if (EngineFactory::protocols().contains(val, Qt::CaseInsensitive))
+                data.config.setProtocol(val.toUpper());
 			else
 			{
-				qWarning()<< "Unsupported chess protocol:" << val;
+                qWarning()<< "Unknown chess protocol:" << val;
 				return false;
 			}
 		}

@@ -28,9 +28,6 @@
 #include "pgngame.h"
 #include "mersenne.h"
 
-//#include "ConnectionPool.h"
-//#include "databasemanager.h"
-
 QDataStream& operator>>(QDataStream& in, OpeningBook* book)
 {
     while (in.status() == QDataStream::Ok)

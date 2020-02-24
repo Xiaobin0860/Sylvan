@@ -63,6 +63,7 @@ EngineConfigurationDialog::EngineConfigurationDialog(
     QStringList protocols = EngineFactory::protocols();
     for (QStringList::iterator iter = protocols.begin(); iter != protocols.end(); iter++)
         ui->m_protocolCombo->insertItem(0, *iter);
+    ui->m_protocolCombo->setCurrentIndex(0);
 
     ui->m_optionsView->setModel(m_engineOptionModel);
     connect(m_engineOptionModel, SIGNAL(modelReset()),

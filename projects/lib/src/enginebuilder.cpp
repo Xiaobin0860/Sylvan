@@ -49,7 +49,7 @@ ChessPlayer* EngineBuilder::create(QObject* receiver,
         return nullptr;
     }
 
-    if (!EngineFactory::protocols().contains(m_config.protocol()))
+    if (!EngineFactory::protocols().contains(m_config.protocol(), Qt::CaseInsensitive))
     {
         setError(error, tr("Unknown chess protocol: %1")
                  .arg(m_config.protocol()));
