@@ -120,6 +120,7 @@ Engine options:
   proto=PROTOCOL	Set the chess protocol to PROTOCOL, which can be one of:
 			'xboard': The Xboard/Winboard/CECP protocol
 			'uci': The Universal Chess Interface
+			'ucci': The Universal Chinese Chess Interface
   tc=TIMECONTROL	Set the time control to TIMECONTROL. The format is
 			moves/time+increment, where 'moves' is the number of
 			moves per tc, 'time' is time per tc (either seconds or

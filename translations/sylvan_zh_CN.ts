@@ -1897,7 +1897,7 @@ Do you want to save?</source>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="134"/>
         <source>%1&apos;s Disconnect</source>
-        <translation>%1方断线</translation>
+        <translation>%1断线</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="139"/>
