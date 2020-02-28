@@ -355,6 +355,7 @@ EngineMatch* parseMatch(const QStringList& args, QObject* parent)
 			if (ok)
 				adjudicator.setMaximumGameLength(value.toInt());
 		}
+#if 0
 		// Syzygy tablebase adjudication
 		else if (name == "-tb")
 		{
@@ -373,6 +374,7 @@ EngineMatch* parseMatch(const QStringList& args, QObject* parent)
 		}
 		// Syzygy ignore 50-move-rule
         else if (name == "-tbignore50");
+#endif
 		// Event name
 		else if (name == "-event")
 			tournament->setName(value.toString());
@@ -425,6 +427,7 @@ EngineMatch* parseMatch(const QStringList& args, QObject* parent)
 			QLoggingCategory::defaultCategory()->setEnabled(QtDebugMsg, true);
 			match->setDebugMode(true);
 		}
+#if 0
 		// Use an opening suite
 		else if (name == "-openings")
 		{
@@ -503,6 +506,7 @@ EngineMatch* parseMatch(const QStringList& args, QObject* parent)
 			else
 				ok = false;
 		}
+#endif
 		// PGN file where the games should be saved
 		else if (name == "-pgnout")
 		{
@@ -523,12 +527,14 @@ EngineMatch* parseMatch(const QStringList& args, QObject* parent)
 			if (ok)
 				tournament->setPgnOutput(list.at(0), mode);
 		}
+#if 0
 		// FEN/EPD output file to save positions
 		else if (name == "-epdout")
 		{
 			QString fileName = value.toString();
 			tournament->setEpdOutput(fileName);
 		}
+#endif
 		// Play every opening twice (default), or multiple times
 		else if (name == "-repeat")
 		{

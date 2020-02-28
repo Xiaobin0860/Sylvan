@@ -273,6 +273,8 @@ bool PgnGame::write(QTextStream& out, PgnMode mode) const
 
     const QList< QPair<QString, QString> > tags = this->tags();
     int maxTags = (mode == Verbose) ? tags.size() : 7;
+
+    writeTag(out, "Game", "Chinese Chess");
     for (int i = 0; i < maxTags; i++)
         writeTag(out, tags.at(i).first, tags.at(i).second);
 
@@ -306,11 +308,15 @@ bool PgnGame::write(QTextStream& out, PgnMode mode) const
         else if (side == Chess::Side::Red)
             str = QString::number(++movenum) + ". ";
 
+        if (side == Chess::Side::Black)
+            str += " ";
+
         str += data.moveString;
+
         if (mode == Verbose && !data.comment.isEmpty())
             str += QString(" {%1}").arg(data.comment);
-
-        out << "\n" << str;
+        str += "\n";
+        out << str;
         lineLength = str.size();
 
         side = !side;

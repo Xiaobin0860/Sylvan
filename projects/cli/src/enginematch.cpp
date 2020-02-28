@@ -65,7 +65,7 @@ OpeningBook* EngineMatch::addOpeningBook(const QString& fileName)
 
 void EngineMatch::start()
 {
-    /*connect(m_tournament, SIGNAL(finished()),
+    connect(m_tournament, SIGNAL(finished()),
 		this, SLOT(onTournamentFinished()));
 	connect(m_tournament, SIGNAL(gameStarted(ChessGame*, int, int, int)),
 		this, SLOT(onGameStarted(ChessGame*, int)));
@@ -74,7 +74,7 @@ void EngineMatch::start()
 
 	if (m_debug)
 		connect(m_tournament->gameManager(), SIGNAL(debugMessage(QString)),
-            this, SLOT(print(QString)));*/
+            this, SLOT(print(QString)));
 
 	QMetaObject::invokeMethod(m_tournament, "start", Qt::QueuedConnection);
 }
