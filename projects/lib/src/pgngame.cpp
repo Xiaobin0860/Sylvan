@@ -113,7 +113,7 @@ void PgnGame::addMove(const MoveData& data, bool addEcco)
                                         : nullptr;
         if (m_ecco && m_ecco->isLeaf())
         {
-            setTag("ECCO", m_ecco->ecoCode());
+            setTag("ECCO", m_ecco->eccoCode());
             setTag("Opening", m_ecco->opening());
             setTag("Variation", m_ecco->variation());
         }

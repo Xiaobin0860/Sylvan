@@ -63,7 +63,7 @@ public:
          * Returns the node's ECCO code, or an empty string if the node is
          * an inner node.
          */
-    QString ecoCode() const;
+    QString eccoCode() const;
     /*!
          * Returns the node's opening name, or an empty string if the node
          * is an inner node.

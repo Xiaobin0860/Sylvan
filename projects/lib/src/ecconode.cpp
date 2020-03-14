@@ -201,7 +201,7 @@ bool EccoNode::isLeaf() const
     return m_eccoCode != -1;
 }
 
-QString EccoNode::ecoCode() const
+QString EccoNode::eccoCode() const
 {
     if (m_eccoCode == -1)
         return QString();
