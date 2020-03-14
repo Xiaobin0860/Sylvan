@@ -288,9 +288,6 @@ div.ah, span.ah {
 	margin-top: 3px;
 	padding: 0.2em;
 	border: solid thin #333;
-	border-radius: 0.5em;
-	-webkit-border-radius: .5em;
-	-moz-border-radius: .5em;
 	box-shadow: 2px 2px 3px #999;
 	-webkit-box-shadow: 2px 2px 3px #999;
 	-moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px;
@@ -561,8 +558,6 @@ table.memberdecls {
 	border-top: 1px solid #A8B8D9;
 	border-left: 1px solid #A8B8D9;
 	border-right: 1px solid #A8B8D9;
-	border-top-right-radius: 4px;
-	border-top-left-radius: 4px;
 	margin-bottom: -1px;
 	background-image: url('nav_f.png');
 	background-repeat: repeat-x;
@@ -636,14 +631,10 @@ table.memberdecls {
         background-color: #DFE5F1;
         /* opera specific markup */
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-        border-top-right-radius: 4px;
         /* firefox specific markup */
         -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
-        -moz-border-radius-topright: 4px;
         /* webkit specific markup */
         -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-        -webkit-border-top-right-radius: 4px;
-
 }
 
 .overload {
@@ -662,16 +653,10 @@ table.memberdecls {
         background-repeat:repeat-x;
         background-color: #FFFFFF;
         /* opera specific markup */
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
         /* firefox specific markup */
-        -moz-border-radius-bottomleft: 4px;
-        -moz-border-radius-bottomright: 4px;
         -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
         /* webkit specific markup */
-        -webkit-border-bottom-left-radius: 4px;
-        -webkit-border-bottom-right-radius: 4px;
         -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -752,7 +737,6 @@ span.mlabel {
 	color: white;
 	margin-right: 4px;
 	padding: 2px 3px;
-	border-radius: 3px;
 	font-size: 7pt;
 	white-space: nowrap;
 	vertical-align: middle;
@@ -850,7 +834,6 @@ div.directory {
     background-color: #728DC1;
     color: white;
     text-align: center;
-    border-radius: 4px;
     margin-left: 2px;
     margin-right: 2px;
 }
@@ -943,9 +926,6 @@ table.fieldtable {
         margin-bottom: 10px;
         border: 1px solid #A8B8D9;
         border-spacing: 0px;
-        -moz-border-radius: 4px;
-        -webkit-border-radius: 4px;
-        border-radius: 4px;
         -moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px;
         -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
@@ -993,12 +973,6 @@ table.fieldtable {
         padding-top: 5px;
         text-align:left;
         font-weight: 400;
-        -moz-border-radius-topleft: 4px;
-        -moz-border-radius-topright: 4px;
-        -webkit-border-top-left-radius: 4px;
-        -webkit-border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
         border-bottom: 1px solid #A8B8D9;
 }
 
@@ -1369,7 +1343,6 @@ div.toc {
         padding: 14px 25px;
         background-color: #F4F6FA;
         border: 1px solid #D8DFEE;
-        border-radius: 7px 7px 7px 7px;
         float: right;
         height: auto;
         margin: 0 8px 10px 10px;
@@ -1481,7 +1454,6 @@ tr.heading h2 {
 	white-space: nowrap;
 	background-color: white;
 	border: 1px solid gray;
-	border-radius: 4px 4px 4px 4px;
 	box-shadow: 1px 1px 7px gray;
 	display: none;
 	font-size: smaller;
