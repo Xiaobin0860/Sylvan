@@ -220,7 +220,7 @@
          </property>
          <item>
           <property name="text">
-           <string extracomment="This player may play either white or black pieces">Any side</string>
+           <string extracomment="This player may play either red or black pieces">Any side</string>
           </property>
          </item>
          <item>
@@ -309,7 +309,7 @@
          </item>
          <item>
           <property name="text">
-           <string extracomment="The player with white pieces wins">White wins</string>
+           <string extracomment="The player with red pieces wins">Red wins</string>
           </property>
          </item>
          <item>

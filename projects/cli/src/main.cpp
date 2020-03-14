@@ -264,8 +264,11 @@ EngineMatch* parseMatch(const QStringList& args, QObject* parent)
 	parser.addOption("-site", QVariant::String, 1, 1);
 	parser.addOption("-wait", QVariant::Int, 1, 1);
 	parser.addOption("-seeds", QVariant::UInt, 1, 1);
-	if (!parser.parse())
-		return nullptr;
+    if (!parser.parse())
+    {
+        qWarning("Parsing mismatch");
+        return nullptr;
+    }
 
 	GameManager* manager = SylvanCoreApplication::instance()->gameManager();
 

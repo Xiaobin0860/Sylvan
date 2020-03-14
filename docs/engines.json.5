@@ -154,7 +154,7 @@ The working directory of the engine.
 File where the engine's standard error output is redirected.
 .It Ic initStrings No \&: Ar array No of Ar string
 Array of strings sent to the engine's standard input at startup.
-.It Ic whitepov No \&: Cm true | Cm false
+.It Ic redpov No \&: Cm true | Cm false
 When
 .Cm true
 invert the engine's scores when it plays black.
@@ -162,7 +162,7 @@ The default is
 .Cm false .
 .Pp
 This option should be used with engines that always report scores from
-white's perspective.
+red's perspective.
 .It Ic ponder No \&: Cm true | Cm false
 When
 .Cm true

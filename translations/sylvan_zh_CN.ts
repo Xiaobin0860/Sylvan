@@ -69,97 +69,97 @@
 <context>
     <name>EngineConfigurationDialog</name>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="14"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="14"/>
         <source>Engine Configuration</source>
         <translation>引擎配置</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="24"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="24"/>
         <source>Standard</source>
         <translation>标准</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="33"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="33"/>
         <source>&amp;Name:</source>
         <translation>&amp;名称：</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="46"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="46"/>
         <source>&amp;Command:</source>
         <translation>&amp;命令：</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="61"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="61"/>
         <source>Load the engine file.</source>
         <translation>加载引擎文件。</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="64"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="64"/>
         <source>Load...</source>
         <translation>加载…</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="73"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="73"/>
         <source>Working directory:</source>
         <translation>工作路径：</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="95"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="95"/>
         <source>Browse working directory.</source>
         <translation>浏览工作路径。</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="98"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="98"/>
         <source>Browse...</source>
         <translation>浏览…</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="107"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="107"/>
         <source>Protocol:</source>
         <translation>协议：</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="124"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="124"/>
         <source>Initialization commands:</source>
         <translation>初始化命令：</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="144"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="144"/>
         <source>This should be enabled for Xboard/Winboard engines that report scores from a red side.</source>
         <translation>应该为Xboard/Winboard引擎启用，该引擎从红方一侧报告分数。</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="147"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="147"/>
         <source>Displays scores in red</source>
         <translation>显示红方分数</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="155"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="155"/>
         <source>Advanced</source>
         <translation>高级</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="189"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="189"/>
         <source>Restore default values for each option.</source>
         <translation>恢复每个选项的默认值。</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="192"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="192"/>
         <source>Load defaults</source>
         <translation>加载默认值</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="199"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="199"/>
         <source>Redetect engine options and support features.</source>
         <translation>重新检测引擎选项和支持功能。</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="202"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="202"/>
         <source>Redetect</source>
         <translation>重新检测</translation>
     </message>
     <message>
-        <location filename="../projects/gui/ui/engineconfigdlg.ui" line="231"/>
+        <location filename="../projects/gui/ui/engineconfigurationdlg.ui" line="231"/>
         <source>Redetect engine options and support.</source>
         <translation>重新检测引擎选项和支持。</translation>
     </message>
@@ -174,38 +174,38 @@
         <translation>配置引擎</translation>
     </message>
     <message>
-        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="177"/>
+        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="178"/>
         <source>Executables (*.exe *.bat *.cmd);;All Files (*.*)</source>
         <translation>可执行文件 (*.exe *.bat *.cmd);;所有文件 (*.*)</translation>
     </message>
     <message>
-        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="179"/>
+        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="180"/>
         <source>All Files (*)</source>
         <translation>所有文件 (*)</translation>
     </message>
     <message>
-        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="203"/>
+        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="204"/>
         <source>Select Engine Executable</source>
         <translation>选择引擎可执行文件</translation>
     </message>
     <message>
-        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="257"/>
+        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="258"/>
         <source>Select Engine Working Directory</source>
         <translation>选择引擎工作路径</translation>
     </message>
     <message>
-        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="313"/>
-        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="349"/>
+        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="314"/>
+        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="350"/>
         <source>Engine Error</source>
         <translation>引擎出错</translation>
     </message>
     <message>
-        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="388"/>
+        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="389"/>
         <source>Duplicate Engine Name</source>
         <translation>重复的引擎名称</translation>
     </message>
     <message>
-        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="389"/>
+        <location filename="../projects/gui/src/engineconfigurationdlg.cpp" line="390"/>
         <source>An engine with this name already exists</source>
         <translation>具有此名称的引擎已经存在</translation>
     </message>
@@ -574,7 +574,7 @@
     <message>
         <location filename="../projects/gui/src/gamedatabasedlg.cpp" line="519"/>
         <source>Maximum opening depth (plies):</source>
-        <translation>最大开局深度 （步数）:</translation>
+        <translation>最大开局深度（层数）:</translation>
     </message>
     <message>
         <location filename="../projects/gui/src/gamedatabasedlg.cpp" line="524"/>
@@ -691,7 +691,7 @@
     <message>
         <location filename="../projects/gui/ui/gamedatabasesearchdlg.ui" line="223"/>
         <source>Any side</source>
-        <extracomment>This player may play either white or black pieces</extracomment>
+        <extracomment>This player may play either red or black pieces</extracomment>
         <translation>任意方</translation>
     </message>
     <message>
@@ -755,8 +755,8 @@
     </message>
     <message>
         <location filename="../projects/gui/ui/gamedatabasesearchdlg.ui" line="312"/>
-        <source>White wins</source>
-        <extracomment>The player with white pieces wins</extracomment>
+        <source>Red wins</source>
+        <extracomment>The player with red pieces wins</extracomment>
         <translation>红方胜</translation>
     </message>
     <message>
@@ -947,7 +947,7 @@
     <message>
         <location filename="../projects/gui/ui/gamesettingswidget.ui" line="414"/>
         <source>Total number of moves in a game</source>
-        <translation>游戏的总棋步数</translation>
+        <translation>游戏的总棋棋步</translation>
     </message>
     <message>
         <location filename="../projects/gui/ui/gamesettingswidget.ui" line="420"/>
@@ -962,7 +962,7 @@
     <message>
         <location filename="../projects/gui/ui/gamesettingswidget.ui" line="439"/>
         <source>  pl(s)</source>
-        <translation>  步数</translation>
+        <translation>  层数</translation>
     </message>
     <message>
         <location filename="../projects/gui/ui/gamesettingswidget.ui" line="464"/>
@@ -1269,12 +1269,12 @@
     <message>
         <location filename="../projects/gui/src/mainwindow.cpp" line="174"/>
         <source>Forced Red Win</source>
-        <translation>强制红胜</translation>
+        <translation>强制红方胜</translation>
     </message>
     <message>
         <location filename="../projects/gui/src/mainwindow.cpp" line="175"/>
         <source>Forced Black Win</source>
-        <translation>强制黑胜</translation>
+        <translation>强制黑方胜</translation>
     </message>
     <message>
         <location filename="../projects/gui/src/mainwindow.cpp" line="177"/>
@@ -1872,7 +1872,7 @@ Do you want to save?</source>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="118"/>
         <source>%1 Manual win</source>
-        <translation>%1手动胜利</translation>
+        <translation>%1手动胜</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="121"/>
@@ -1907,7 +1907,7 @@ Do you want to save?</source>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="141"/>
         <source>%1 Rules win</source>
-        <translation>%1规则胜利</translation>
+        <translation>%1规则胜</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="144"/>
@@ -1922,19 +1922,7 @@ Do you want to save?</source>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="151"/>
         <source>%1 Win</source>
-        <translation>%1胜利</translation>
-    </message>
-    <message>
-        <source>Both sides have no attacks, judged draw!</source>
-        <translation type="obsolete">双方无攻击力子，判和！</translation>
-    </message>
-    <message>
-        <source>60 step did not eat, judged draw!</source>
-        <translation type="obsolete">60回合未吃子，判和！</translation>
-    </message>
-    <message>
-        <source>Cycle 3 steps, judged draw!</source>
-        <translation type="obsolete">循环3次，判和！</translation>
+        <translation>%1方胜</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="153"/>
@@ -1954,12 +1942,12 @@ Do you want to save?</source>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="172"/>
         <source>1-0</source>
-        <translation>红胜</translation>
+        <translation>红方胜</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="174"/>
         <source>0-1</source>
-        <translation>黑胜</translation>
+        <translation>黑方胜</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/board/result.cpp" line="175"/>
@@ -2215,7 +2203,7 @@ Do you want to save?</source>
     <message>
         <location filename="../projects/lib/src/timecontrol.cpp" line="193"/>
         <source>, %1 plies</source>
-        <translation>，%1步数</translation>
+        <translation>，%1层数</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/timecontrol.cpp" line="195"/>
@@ -2268,12 +2256,12 @@ Do you want to save?</source>
     <message>
         <location filename="../projects/gui/ui/timecontroldlg.ui" line="79"/>
         <source>Step:</source>
-        <translation>步数：</translation>
+        <translation>步进：</translation>
     </message>
     <message>
         <location filename="../projects/gui/ui/timecontroldlg.ui" line="89"/>
         <source>The number of moves in a time control.</source>
-        <translation>在时间控制中步数。</translation>
+        <translation>在时间控制中棋步。</translation>
     </message>
     <message>
         <location filename="../projects/gui/ui/timecontroldlg.ui" line="92"/>
@@ -2592,7 +2580,7 @@ Do you want to save?</source>
     <message>
         <location filename="../projects/lib/src/board/westernboard.cpp" line="812"/>
         <source>%1 Win!</source>
-        <translation>%1胜！</translation>
+        <translation>%1方胜！</translation>
     </message>
     <message>
         <location filename="../projects/lib/src/board/westernboard.cpp" line="842"/>
