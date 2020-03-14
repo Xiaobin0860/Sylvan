@@ -85,24 +85,24 @@ $(function() {
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">class </span><a class="code" href="classGameDatabaseDialog.html">GameDatabaseDialog</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classGameDatabaseDialog.html">   44</a></span>&#160;<span class="keyword">class </span><a class="code" href="classGameDatabaseDialog.html">GameDatabaseDialog</a> : <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qdialog.html">QDialog</a></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classGameDatabaseDialog.html">   44</a></span>&#160;<span class="keyword">class </span><a class="code" href="classGameDatabaseDialog.html">GameDatabaseDialog</a> : <span class="keyword">public</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qdialog.html">QDialog</a></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="classGameDatabaseDialog.html#a3951b9cd1f613101fe8854f531a42759">GameDatabaseDialog</a>(<a class="code" href="classGameDatabaseManager.html">GameDatabaseManager</a>* dbManager,</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                       <a class="codeRef" href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a>* parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                       <a class="codeRef" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a>* parent = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classGameDatabaseDialog.html#afa21a1fc2274ddb59bfc304ce4cdd63c">~GameDatabaseDialog</a>();</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> databaseSelectionChanged(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qitemselection.html">QItemSelection</a>&amp; selected,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                  <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qitemselection.html">QItemSelection</a>&amp; deselected);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> gameSelectionChanged(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a>&amp; current,</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                              <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a>&amp; previous);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> updateSearch(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; terms = <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>());</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> databaseSelectionChanged(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qitemselection.html">QItemSelection</a>&amp; selected,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                  <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qitemselection.html">QItemSelection</a>&amp; deselected);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> gameSelectionChanged(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a>&amp; current,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                              <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a>&amp; previous);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> updateSearch(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; terms = <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>());</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> onSearchTimeout();</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> onAdvancedSearch();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> exportPgn(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; filename);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> exportPgn(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; filename);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> createOpeningBook();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> copyGame();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> copyFen();</div>
@@ -114,34 +114,34 @@ $(function() {
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="classGameViewer.html">GameViewer</a>* m_gameViewer;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="classPgnGame.html">PgnGame</a> m_game;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qvector.html">QVector&lt;PgnGame::MoveData&gt;</a> m_moves;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qvector.html">QVector&lt;PgnGame::MoveData&gt;</a> m_moves;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classGameDatabaseManager.html">GameDatabaseManager</a>* m_dbManager;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="classPgnDatabaseModel.html">PgnDatabaseModel</a>* m_pgnDatabaseModel;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="classPgnGameEntryModel.html">PgnGameEntryModel</a>* m_pgnGameEntryModel;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qmap.html">QMap&lt;int, PgnDatabase*&gt;</a> m_selectedDatabases;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qmap.html">QMap&lt;int, PgnDatabase*&gt;</a> m_selectedDatabases;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    QTimer m_searchTimer;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> m_searchTerms;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> m_searchTerms;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    Ui::GameDatabaseDialog* ui;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;};</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#endif // GAME_DATABASE_DIALOG_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a></div></div>
+<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a></div></div>
 <div class="ttc" id="aclassGameViewer_html"><div class="ttname"><a href="classGameViewer.html">GameViewer</a></div><div class="ttdef"><b>Definition:</b> gameviewer.h:43</div></div>
 <div class="ttc" id="aclassPgnGame_html"><div class="ttname"><a href="classPgnGame.html">PgnGame</a></div><div class="ttdoc">A game of chess in PGN format.</div><div class="ttdef"><b>Definition:</b> pgngame.h:51</div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
 <div class="ttc" id="aclassGameDatabaseManager_html"><div class="ttname"><a href="classGameDatabaseManager.html">GameDatabaseManager</a></div><div class="ttdoc">Manages chess game databases.</div><div class="ttdef"><b>Definition:</b> gamedatabasemanager.h:35</div></div>
 <div class="ttc" id="aclassPgnGameEntryModel_html"><div class="ttname"><a href="classPgnGameEntryModel.html">PgnGameEntryModel</a></div><div class="ttdoc">Supplies PGN game entry information to views.</div><div class="ttdef"><b>Definition:</b> pgngameentrymodel.h:35</div></div>
 <div class="ttc" id="aclassGameDatabaseDialog_html_a3951b9cd1f613101fe8854f531a42759"><div class="ttname"><a href="classGameDatabaseDialog.html#a3951b9cd1f613101fe8854f531a42759">GameDatabaseDialog::GameDatabaseDialog</a></div><div class="ttdeci">GameDatabaseDialog(GameDatabaseManager *dbManager, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> gamedatabasedlg.cpp:251</div></div>
 <div class="ttc" id="aclassGameDatabaseDialog_html_afa21a1fc2274ddb59bfc304ce4cdd63c"><div class="ttname"><a href="classGameDatabaseDialog.html#afa21a1fc2274ddb59bfc304ce4cdd63c">GameDatabaseDialog::~GameDatabaseDialog</a></div><div class="ttdeci">virtual ~GameDatabaseDialog()</div><div class="ttdef"><b>Definition:</b> gamedatabasedlg.cpp:345</div></div>
 <div class="ttc" id="aclassPgnDatabase_html"><div class="ttname"><a href="classPgnDatabase.html">PgnDatabase</a></div><div class="ttdoc">PGN database.</div><div class="ttdef"><b>Definition:</b> pgndatabase.h:40</div></div>
-<div class="ttc" id="aqitemselection_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qitemselection.html">QItemSelection</a></div></div>
-<div class="ttc" id="aqmap_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qmap.html">QMap&lt; int, PgnDatabase * &gt;</a></div></div>
-<div class="ttc" id="aqmodelindex_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a></div></div>
-<div class="ttc" id="aqvector_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qvector.html">QVector&lt; PgnGame::MoveData &gt;</a></div></div>
-<div class="ttc" id="aqdialog_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qdialog.html">QDialog</a></div></div>
+<div class="ttc" id="aqitemselection_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qitemselection.html">QItemSelection</a></div></div>
+<div class="ttc" id="aqmap_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qmap.html">QMap&lt; int, PgnDatabase * &gt;</a></div></div>
+<div class="ttc" id="aqmodelindex_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a></div></div>
+<div class="ttc" id="aqvector_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qvector.html">QVector&lt; PgnGame::MoveData &gt;</a></div></div>
+<div class="ttc" id="aqdialog_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qdialog.html">QDialog</a></div></div>
 <div class="ttc" id="aclassGameDatabaseDialog_html"><div class="ttname"><a href="classGameDatabaseDialog.html">GameDatabaseDialog</a></div><div class="ttdoc">Dialog for viewing game databases.</div><div class="ttdef"><b>Definition:</b> gamedatabasedlg.h:44</div></div>
 <div class="ttc" id="aclassPgnDatabaseModel_html"><div class="ttname"><a href="classPgnDatabaseModel.html">PgnDatabaseModel</a></div><div class="ttdoc">Supplies PGN database information to views.</div><div class="ttdef"><b>Definition:</b> pgndatabasemodel.h:34</div></div>
 <!-- start footer part -->

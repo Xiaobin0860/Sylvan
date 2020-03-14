@@ -87,15 +87,15 @@ $(function() {
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> Subclass;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classClassRegistry.html#a4ca30f471d09246035c1f3f26c26f0d3">   64</a></span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qmap.html">QMap&lt;QString, Factory&gt;</a>&amp; <a class="code" href="classClassRegistry.html#a4ca30f471d09246035c1f3f26c26f0d3">items</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classClassRegistry.html#a4ca30f471d09246035c1f3f26c26f0d3">   64</a></span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qmap.html">QMap&lt;QString, Factory&gt;</a>&amp; <a class="code" href="classClassRegistry.html#a4ca30f471d09246035c1f3f26c26f0d3">items</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> m_items;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="classClassRegistry.html#a7eb56c5837d87e2a7857d8e44264c4b5">   69</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classClassRegistry.html#a7eb56c5837d87e2a7857d8e44264c4b5">add</a>(<a class="code" href="classClassRegistry.html#ab6b36ea62298a60e7a0e0f9ffe83fffe">Factory</a> f, <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; key)</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="classClassRegistry.html#a7eb56c5837d87e2a7857d8e44264c4b5">   69</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classClassRegistry.html#a7eb56c5837d87e2a7857d8e44264c4b5">add</a>(<a class="code" href="classClassRegistry.html#ab6b36ea62298a60e7a0e0f9ffe83fffe">Factory</a> f, <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; key)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        m_items[key] = f;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classClassRegistry.html#abeb9237bff87f44fef895d9d7f34d0cf">   78</a></span>&#160;    T* <a class="code" href="classClassRegistry.html#abeb9237bff87f44fef895d9d7f34d0cf">create</a>(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; key)</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classClassRegistry.html#abeb9237bff87f44fef895d9d7f34d0cf">   78</a></span>&#160;    T* <a class="code" href="classClassRegistry.html#abeb9237bff87f44fef895d9d7f34d0cf">create</a>(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; key)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span> (!m_items.contains(key))</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
@@ -104,7 +104,7 @@ $(function() {
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qmap.html">QMap&lt;QString, Factory&gt;</a> m_items;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qmap.html">QMap&lt;QString, Factory&gt;</a> m_items;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;};</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
@@ -113,7 +113,7 @@ $(function() {
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="classClassRegistration.html#aa6282fde3d84ef4eab9bc0f223ec9b0b">  104</a></span>&#160;    <a class="code" href="classClassRegistration.html#aa6282fde3d84ef4eab9bc0f223ec9b0b">ClassRegistration</a>(<a class="code" href="classClassRegistry.html">ClassRegistry&lt;T&gt;</a>* registry,</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                      <span class="keyword">typename</span> <a class="code" href="classClassRegistry.html">ClassRegistry&lt;T&gt;::Factory</a> factory,</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                      <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; key)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                      <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; key)</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    {</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        registry-&gt;<a class="code" href="classClassRegistry.html#a7eb56c5837d87e2a7857d8e44264c4b5">add</a>(factory, key);</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
@@ -124,8 +124,8 @@ $(function() {
 <div class="ttc" id="aclassClassRegistry_html_a7eb56c5837d87e2a7857d8e44264c4b5"><div class="ttname"><a href="classClassRegistry.html#a7eb56c5837d87e2a7857d8e44264c4b5">ClassRegistry::add</a></div><div class="ttdeci">void add(Factory f, const QString &amp;key)</div><div class="ttdef"><b>Definition:</b> classregistry.h:69</div></div>
 <div class="ttc" id="aclassClassRegistry_html_ab6b36ea62298a60e7a0e0f9ffe83fffe"><div class="ttname"><a href="classClassRegistry.html#ab6b36ea62298a60e7a0e0f9ffe83fffe">ClassRegistry::Factory</a></div><div class="ttdeci">T *(* Factory)(void)</div><div class="ttdef"><b>Definition:</b> classregistry.h:51</div></div>
 <div class="ttc" id="aclassClassRegistry_html"><div class="ttname"><a href="classClassRegistry.html">ClassRegistry</a></div><div class="ttdoc">A class for creating objects based on the class' runtime name or key (a string).</div><div class="ttdef"><b>Definition:</b> classregistry.h:47</div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
-<div class="ttc" id="aqmap_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qmap.html">QMap&lt; QString, Factory &gt;</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqmap_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qmap.html">QMap&lt; QString, Factory &gt;</a></div></div>
 <div class="ttc" id="aclassClassRegistry_html_abeb9237bff87f44fef895d9d7f34d0cf"><div class="ttname"><a href="classClassRegistry.html#abeb9237bff87f44fef895d9d7f34d0cf">ClassRegistry::create</a></div><div class="ttdeci">T * create(const QString &amp;key)</div><div class="ttdef"><b>Definition:</b> classregistry.h:78</div></div>
 <div class="ttc" id="aclassClassRegistry_html_a4ca30f471d09246035c1f3f26c26f0d3"><div class="ttname"><a href="classClassRegistry.html#a4ca30f471d09246035c1f3f26c26f0d3">ClassRegistry::items</a></div><div class="ttdeci">const QMap&lt; QString, Factory &gt; &amp; items() const</div><div class="ttdef"><b>Definition:</b> classregistry.h:64</div></div>
 <div class="ttc" id="aclassClassRegistration_html_aa6282fde3d84ef4eab9bc0f223ec9b0b"><div class="ttname"><a href="classClassRegistration.html#aa6282fde3d84ef4eab9bc0f223ec9b0b">ClassRegistration::ClassRegistration</a></div><div class="ttdeci">ClassRegistration(ClassRegistry&lt; T &gt; *registry, typename ClassRegistry&lt; T &gt;::Factory factory, const QString &amp;key)</div><div class="ttdef"><b>Definition:</b> classregistry.h:104</div></div>

@@ -72,38 +72,38 @@ $(function() {
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;QValidator&gt;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;QModelIndex&gt;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qabstractitemmodel.html">QAbstractItemModel</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qabstractitemmodel.html">QAbstractItemModel</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classStringValidator.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classStringValidator.html">StringValidator</a> : <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qvalidator.html">QValidator</a></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classStringValidator.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classStringValidator.html">StringValidator</a> : <span class="keyword">public</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qvalidator.html">QValidator</a></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classStringValidator.html#aa2e3a1151d6b9682f5a43a98400083e7">StringValidator</a>(<a class="codeRef" href="http://doc.qt.digia.com/latest/qobject.html">QObject</a>* parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classStringValidator.html#aa2e3a1151d6b9682f5a43a98400083e7">StringValidator</a>(<a class="codeRef" href="https://doc.qt.io/qt-5/qobject.html">QObject</a>* parent = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStringValidator.html#ae5fcae71d263d24213db0a3ae956bfcc">setModel</a>(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qabstractitemmodel.html">QAbstractItemModel</a>* model);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStringValidator.html#ae995bde9080e3dcd2285f7e4b00de159">setStartIndex</a>(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a>&amp; index);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStringValidator.html#ae5fcae71d263d24213db0a3ae956bfcc">setModel</a>(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qabstractitemmodel.html">QAbstractItemModel</a>* model);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStringValidator.html#ae995bde9080e3dcd2285f7e4b00de159">setStartIndex</a>(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a>&amp; index);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// Inherited from QValidator</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">virtual</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qvalidator.html#615cda51100b08f4f8e004ddfe3a2202">State</a> validate(<a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; input, <span class="keywordtype">int</span>&amp; pos) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">virtual</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qvalidator.html#615cda51100b08f4f8e004ddfe3a2202">State</a> validate(<a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; input, <span class="keywordtype">int</span>&amp; pos) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qabstractitemmodel.html">QAbstractItemModel</a>* m_model;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a> m_startIndex;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qabstractitemmodel.html">QAbstractItemModel</a>* m_model;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a> m_startIndex;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;};</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#endif // STRINGVALIDATOR_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassStringValidator_html_ae995bde9080e3dcd2285f7e4b00de159"><div class="ttname"><a href="classStringValidator.html#ae995bde9080e3dcd2285f7e4b00de159">StringValidator::setStartIndex</a></div><div class="ttdeci">void setStartIndex(const QModelIndex &amp;index)</div><div class="ttdef"><b>Definition:</b> stringvalidator.cpp:35</div></div>
 <div class="ttc" id="aclassStringValidator_html_ae5fcae71d263d24213db0a3ae956bfcc"><div class="ttname"><a href="classStringValidator.html#ae5fcae71d263d24213db0a3ae956bfcc">StringValidator::setModel</a></div><div class="ttdeci">void setModel(const QAbstractItemModel *model)</div><div class="ttdef"><b>Definition:</b> stringvalidator.cpp:29</div></div>
-<div class="ttc" id="aqobject_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qobject.html">QObject</a></div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
-<div class="ttc" id="aqvalidator_html_615cda51100b08f4f8e004ddfe3a2202"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qvalidator.html#615cda51100b08f4f8e004ddfe3a2202">QValidator::State</a></div><div class="ttdeci">State</div></div>
+<div class="ttc" id="aqobject_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qobject.html">QObject</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqvalidator_html_615cda51100b08f4f8e004ddfe3a2202"><div class="ttname"><a href="https://doc.qt.io/qt-5/qvalidator.html#615cda51100b08f4f8e004ddfe3a2202">QValidator::State</a></div><div class="ttdeci">State</div></div>
 <div class="ttc" id="aclassStringValidator_html_aa2e3a1151d6b9682f5a43a98400083e7"><div class="ttname"><a href="classStringValidator.html#aa2e3a1151d6b9682f5a43a98400083e7">StringValidator::StringValidator</a></div><div class="ttdeci">StringValidator(QObject *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> stringvalidator.cpp:23</div></div>
-<div class="ttc" id="aqvalidator_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qvalidator.html">QValidator</a></div></div>
+<div class="ttc" id="aqvalidator_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qvalidator.html">QValidator</a></div></div>
 <div class="ttc" id="aclassStringValidator_html"><div class="ttname"><a href="classStringValidator.html">StringValidator</a></div><div class="ttdoc">A model-based validator for strings.</div><div class="ttdef"><b>Definition:</b> stringvalidator.h:37</div></div>
-<div class="ttc" id="aqmodelindex_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a></div></div>
-<div class="ttc" id="aqabstractitemmodel_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qabstractitemmodel.html">QAbstractItemModel</a></div></div>
+<div class="ttc" id="aqmodelindex_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a></div></div>
+<div class="ttc" id="aqabstractitemmodel_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qabstractitemmodel.html">QAbstractItemModel</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

@@ -84,15 +84,15 @@ $(function() {
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">class </span><a class="code" href="classOpeningSuite.html">OpeningSuite</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">class </span><a class="code" href="classOpeningBook.html">OpeningBook</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classGameSettingsWidget.html">   38</a></span>&#160;<span class="keyword">class </span><a class="code" href="classGameSettingsWidget.html">GameSettingsWidget</a> : <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classGameSettingsWidget.html">   38</a></span>&#160;<span class="keyword">class </span><a class="code" href="classGameSettingsWidget.html">GameSettingsWidget</a> : <span class="keyword">public</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classGameSettingsWidget.html">GameSettingsWidget</a>(<a class="codeRef" href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a> *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classGameSettingsWidget.html">GameSettingsWidget</a>(<a class="codeRef" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *parent = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classGameSettingsWidget.html">GameSettingsWidget</a>();</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> chessVariant() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> chessVariant() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="classTimeControl.html">TimeControl</a> timeControl() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">bool</span> pondering() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classGameAdjudicator.html">GameAdjudicator</a> adjudicator() <span class="keyword">const</span>;</div>
@@ -109,12 +109,12 @@ $(function() {
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> onHumanCountChanged(<span class="keywordtype">int</span> count);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;signals:</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> variantChanged(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; variant);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> variantChanged(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; variant);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> timeControlChanged();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> statusChanged(<span class="keywordtype">bool</span> ok);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> validateFen(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; fen);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> validateFen(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; fen);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> showTimeControlDialog();</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">private</span>:</div>
@@ -123,7 +123,7 @@ $(function() {
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    Ui::GameSettingsWidget *ui;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="classTimeControl.html">TimeControl</a> m_timeControl;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="classChess_1_1Board.html">Chess::Board</a>* m_board;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qpalette.html">QPalette</a> m_defaultPalette;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qpalette.html">QPalette</a> m_defaultPalette;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">bool</span> m_isValid;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
@@ -131,14 +131,14 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassOpeningBook_html"><div class="ttname"><a href="classOpeningBook.html">OpeningBook</a></div><div class="ttdoc">A collection of opening moves for chess.</div><div class="ttdef"><b>Definition:</b> openingbook.h:47</div></div>
 <div class="ttc" id="aclassOpeningSuite_html"><div class="ttname"><a href="classOpeningSuite.html">OpeningSuite</a></div><div class="ttdoc">A suite of chess openings.</div><div class="ttdef"><b>Definition:</b> openingsuite.h:42</div></div>
-<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a></div></div>
+<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a></div></div>
 <div class="ttc" id="aclassEngineConfiguration_html"><div class="ttname"><a href="classEngineConfiguration.html">EngineConfiguration</a></div><div class="ttdoc">The EngineConfiguration class defines a chess engine configuration.</div><div class="ttdef"><b>Definition:</b> engineconfiguration.h:34</div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
 <div class="ttc" id="aclassTimeControl_html"><div class="ttname"><a href="classTimeControl.html">TimeControl</a></div><div class="ttdoc">Time controls of a chess game.</div><div class="ttdef"><b>Definition:</b> timecontrol.h:37</div></div>
 <div class="ttc" id="aclassGameSettingsWidget_html"><div class="ttname"><a href="classGameSettingsWidget.html">GameSettingsWidget</a></div><div class="ttdef"><b>Definition:</b> gamesettingswidget.h:38</div></div>
 <div class="ttc" id="aclassChess_1_1Board_html"><div class="ttname"><a href="classChess_1_1Board.html">Chess::Board</a></div><div class="ttdoc">An internal chessboard class.</div><div class="ttdef"><b>Definition:</b> board.h:58</div></div>
 <div class="ttc" id="aclassGameAdjudicator_html"><div class="ttname"><a href="classGameAdjudicator.html">GameAdjudicator</a></div><div class="ttdoc">A class for adjudicating chess games.</div><div class="ttdef"><b>Definition:</b> gameadjudicator.h:34</div></div>
-<div class="ttc" id="aqpalette_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qpalette.html">QPalette</a></div></div>
+<div class="ttc" id="aqpalette_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qpalette.html">QPalette</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

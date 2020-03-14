@@ -74,7 +74,7 @@ $(function() {
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span><a class="code" href="classPgnStream.html">PgnStream</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span><a class="code" href="classPgnGameFilter.html">PgnGameFilter</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qdatastream.html">QDataStream</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qdatastream.html">QDataStream</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classPgnGameEntry.html">   41</a></span>&#160;<span class="keyword">class </span>LIB_EXPORT <a class="code" href="classPgnGameEntry.html">PgnGameEntry</a></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
@@ -96,21 +96,21 @@ $(function() {
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> clear();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">bool</span> read(<a class="code" href="classPgnStream.html">PgnStream</a>&amp; in);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">bool</span> read(<a class="codeRef" href="http://doc.qt.digia.com/latest/qdatastream.html">QDataStream</a>&amp; in);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">bool</span> read(<a class="codeRef" href="https://doc.qt.io/qt-5/qdatastream.html">QDataStream</a>&amp; in);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> write(<a class="codeRef" href="http://doc.qt.digia.com/latest/qdatastream.html">QDataStream</a>&amp; out) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> write(<a class="codeRef" href="https://doc.qt.io/qt-5/qdatastream.html">QDataStream</a>&amp; out) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">bool</span> match(<span class="keyword">const</span> <a class="code" href="classPgnGameFilter.html">PgnGameFilter</a>&amp; filter) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    qint64 pos() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    qint64 lineNumber() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> tagValue(TagType type) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> tagValue(TagType type) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">void</span> addTag(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a>&amp; tagValue);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">void</span> addTag(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a>&amp; tagValue);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a> m_data;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> m_data;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    qint64 m_pos;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    qint64 m_lineNumber;</div>
@@ -118,9 +118,9 @@ $(function() {
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keyword">extern</span> LIB_EXPORT <a class="code" href="classPgnStream.html">PgnStream</a>&amp; operator&gt;&gt;(<a class="code" href="classPgnStream.html">PgnStream</a>&amp; in, <a class="code" href="classPgnGameEntry.html">PgnGameEntry</a>&amp; entry);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keyword">extern</span> LIB_EXPORT <a class="codeRef" href="http://doc.qt.digia.com/latest/qdatastream.html">QDataStream</a>&amp; operator&gt;&gt;(<a class="codeRef" href="http://doc.qt.digia.com/latest/qdatastream.html">QDataStream</a>&amp; in, <a class="code" href="classPgnGameEntry.html">PgnGameEntry</a>&amp; entry);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keyword">extern</span> LIB_EXPORT <a class="codeRef" href="https://doc.qt.io/qt-5/qdatastream.html">QDataStream</a>&amp; operator&gt;&gt;(<a class="codeRef" href="https://doc.qt.io/qt-5/qdatastream.html">QDataStream</a>&amp; in, <a class="code" href="classPgnGameEntry.html">PgnGameEntry</a>&amp; entry);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword">extern</span> LIB_EXPORT <a class="codeRef" href="http://doc.qt.digia.com/latest/qdatastream.html">QDataStream</a>&amp; <a class="code" href="classQCPVector2D.html#a6c757af9671d925af4a36c2f58fb7234">operator&lt;&lt;</a>(<a class="codeRef" href="http://doc.qt.digia.com/latest/qdatastream.html">QDataStream</a>&amp; out,</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword">extern</span> LIB_EXPORT <a class="codeRef" href="https://doc.qt.io/qt-5/qdatastream.html">QDataStream</a>&amp; <a class="code" href="classQCPVector2D.html#a6c757af9671d925af4a36c2f58fb7234">operator&lt;&lt;</a>(<a class="codeRef" href="https://doc.qt.io/qt-5/qdatastream.html">QDataStream</a>&amp; out,</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                                          <span class="keyword">const</span> <a class="code" href="classPgnGameEntry.html">PgnGameEntry</a>&amp; entry);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">#endif // PGNGAMEENTRY_H</span></div>
@@ -128,8 +128,8 @@ $(function() {
 <div class="ttc" id="aclassPgnGameEntry_html"><div class="ttname"><a href="classPgnGameEntry.html">PgnGameEntry</a></div><div class="ttdoc">An entry in a PGN collection.</div><div class="ttdef"><b>Definition:</b> pgngameentry.h:41</div></div>
 <div class="ttc" id="aclassPgnStream_html"><div class="ttname"><a href="classPgnStream.html">PgnStream</a></div><div class="ttdoc">A class for reading games in PGN format from a text stream.</div><div class="ttdef"><b>Definition:</b> pgnstream.h:43</div></div>
 <div class="ttc" id="aclassPgnGameEntry_html_a8a54e80f34c1827082ade18830d7f09da87f65d76f8b4d50aa0a69ff51afdd743"><div class="ttname"><a href="classPgnGameEntry.html#a8a54e80f34c1827082ade18830d7f09da87f65d76f8b4d50aa0a69ff51afdd743">PgnGameEntry::SiteTag</a></div><div class="ttdeci">@ SiteTag</div><div class="ttdoc">The location of the event.</div><div class="ttdef"><b>Definition:</b> pgngameentry.h:48</div></div>
-<div class="ttc" id="aqdatastream_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qdatastream.html">QDataStream</a></div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqdatastream_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qdatastream.html">QDataStream</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
 <div class="ttc" id="aclassPgnGameEntry_html_a8a54e80f34c1827082ade18830d7f09da8b80e11de97d02434fc90f9cf82a8453"><div class="ttname"><a href="classPgnGameEntry.html#a8a54e80f34c1827082ade18830d7f09da8b80e11de97d02434fc90f9cf82a8453">PgnGameEntry::DateTag</a></div><div class="ttdeci">@ DateTag</div><div class="ttdoc">The starting date of the game.</div><div class="ttdef"><b>Definition:</b> pgngameentry.h:49</div></div>
 <div class="ttc" id="aclassPgnGameFilter_html"><div class="ttname"><a href="classPgnGameFilter.html">PgnGameFilter</a></div><div class="ttdoc">A filter for chess games in a PGN database.</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:39</div></div>
 <div class="ttc" id="aclassPgnGameEntry_html_a8a54e80f34c1827082ade18830d7f09dac88559aabd1b6fef3de095db0ea6d9da"><div class="ttname"><a href="classPgnGameEntry.html#a8a54e80f34c1827082ade18830d7f09dac88559aabd1b6fef3de095db0ea6d9da">PgnGameEntry::RoundTag</a></div><div class="ttdeci">@ RoundTag</div><div class="ttdoc">The playing round ordinal of the game.</div><div class="ttdef"><b>Definition:</b> pgngameentry.h:50</div></div>
@@ -138,7 +138,7 @@ $(function() {
 <div class="ttc" id="aclassPgnGameEntry_html_a8a54e80f34c1827082ade18830d7f09d"><div class="ttname"><a href="classPgnGameEntry.html#a8a54e80f34c1827082ade18830d7f09d">PgnGameEntry::TagType</a></div><div class="ttdeci">TagType</div><div class="ttdef"><b>Definition:</b> pgngameentry.h:45</div></div>
 <div class="ttc" id="aclassPgnGameEntry_html_a8a54e80f34c1827082ade18830d7f09daa195409e0cdd4a4a30d22d599d9bc6c0"><div class="ttname"><a href="classPgnGameEntry.html#a8a54e80f34c1827082ade18830d7f09daa195409e0cdd4a4a30d22d599d9bc6c0">PgnGameEntry::ResultTag</a></div><div class="ttdeci">@ ResultTag</div><div class="ttdoc">The result of the game.</div><div class="ttdef"><b>Definition:</b> pgngameentry.h:53</div></div>
 <div class="ttc" id="aclassPgnGameEntry_html_a8a54e80f34c1827082ade18830d7f09da82f18659d7ff67b7496bb256436c6d53"><div class="ttname"><a href="classPgnGameEntry.html#a8a54e80f34c1827082ade18830d7f09da82f18659d7ff67b7496bb256436c6d53">PgnGameEntry::EventTag</a></div><div class="ttdeci">@ EventTag</div><div class="ttdoc">The name of the tournament or match event.</div><div class="ttdef"><b>Definition:</b> pgngameentry.h:47</div></div>
-<div class="ttc" id="aqbytearray_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a></div></div>
+<div class="ttc" id="aqbytearray_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a></div></div>
 <div class="ttc" id="aclassPgnGameEntry_html_a8a54e80f34c1827082ade18830d7f09da1a242e71556bc6db5e9993a17cdd7a8e"><div class="ttname"><a href="classPgnGameEntry.html#a8a54e80f34c1827082ade18830d7f09da1a242e71556bc6db5e9993a17cdd7a8e">PgnGameEntry::RedTag</a></div><div class="ttdeci">@ RedTag</div><div class="ttdoc">The player of the red pieces.</div><div class="ttdef"><b>Definition:</b> pgngameentry.h:51</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

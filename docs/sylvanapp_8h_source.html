@@ -83,7 +83,7 @@ $(function() {
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">class </span><a class="code" href="classChessGame.html">ChessGame</a>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">class </span><a class="code" href="classGameWall.html">GameWall</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classSylvanApplication.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classSylvanApplication.html">SylvanApplication</a> : <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qapplication.html">QApplication</a></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classSylvanApplication.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classSylvanApplication.html">SylvanApplication</a> : <span class="keyword">public</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qapplication.html">QApplication</a></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
@@ -91,16 +91,16 @@ $(function() {
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="classSylvanApplication.html">SylvanApplication</a>(<span class="keywordtype">int</span>&amp; argc, <span class="keywordtype">char</span>* argv[]);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classSylvanApplication.html">SylvanApplication</a>();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> configPath();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> configPath();</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="classEngineManager.html">EngineManager</a>* engineManager();</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="classGameManager.html">GameManager</a>* gameManager();</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="classGameDatabaseManager.html">GameDatabaseManager</a>* gameDatabaseManager();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qlist.html">QList&lt;MainWindow*&gt;</a> gameWindows();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qlist.html">QList&lt;MainWindow*&gt;</a> gameWindows();</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> showGameWindow(<span class="keywordtype">int</span> index);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="classTournamentResultsDialog.html">TournamentResultsDialog</a>* tournamentResultsDialog();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">static</span> <a class="code" href="classSylvanApplication.html">SylvanApplication</a>* instance();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">static</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> userName();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">static</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> userName();</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">public</span> slots:</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="classMainWindow.html">MainWindow</a>* newGameWindow(<a class="code" href="classChessGame.html">ChessGame</a>* game);</div>
@@ -113,14 +113,14 @@ $(function() {
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> onQuitAction();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> showDialog(<a class="codeRef" href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a>* dlg);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> showDialog(<a class="codeRef" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a>* dlg);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="classSettingsDialog.html">SettingsDialog</a>* m_settingsDialog;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="classTournamentResultsDialog.html">TournamentResultsDialog</a>* m_tournamentResultsDialog;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="classEngineManager.html">EngineManager</a>* m_engineManager;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="classGameManager.html">GameManager</a>* m_gameManager;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="classGameDatabaseManager.html">GameDatabaseManager</a>* m_gameDatabaseManager;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qlist.html">QList&lt;QPointer&lt;MainWindow&gt;</a> &gt; m_gameWindows;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qlist.html">QList&lt;QPointer&lt;MainWindow&gt;</a> &gt; m_gameWindows;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="classGameDatabaseDialog.html">GameDatabaseDialog</a>* m_gameDatabaseDialog;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    QPointer&lt;GameWall&gt; m_gameWall;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">bool</span> m_initialWindowCreated;</div>
@@ -134,13 +134,13 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassGameManager_html"><div class="ttname"><a href="classGameManager.html">GameManager</a></div><div class="ttdoc">A class for managing chess games and players.</div><div class="ttdef"><b>Definition:</b> gamemanager.h:41</div></div>
 <div class="ttc" id="aclassSettingsDialog_html"><div class="ttname"><a href="classSettingsDialog.html">SettingsDialog</a></div><div class="ttdoc">Dialog for configuring global settings.</div><div class="ttdef"><b>Definition:</b> settingsdlg.h:32</div></div>
-<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a></div></div>
+<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a></div></div>
 <div class="ttc" id="aclassPgnImporter_html"><div class="ttname"><a href="classPgnImporter.html">PgnImporter</a></div><div class="ttdoc">Reads PGN database in a separate thread.</div><div class="ttdef"><b>Definition:</b> pgnimporter.h:32</div></div>
-<div class="ttc" id="aqlist_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qlist.html">QList</a></div></div>
+<div class="ttc" id="aqlist_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qlist.html">QList</a></div></div>
 <div class="ttc" id="aclassGameWall_html"><div class="ttname"><a href="classGameWall.html">GameWall</a></div><div class="ttdef"><b>Definition:</b> gamewall.h:31</div></div>
-<div class="ttc" id="aqapplication_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qapplication.html">QApplication</a></div></div>
+<div class="ttc" id="aqapplication_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qapplication.html">QApplication</a></div></div>
 <div class="ttc" id="aclassSylvanApplication_html"><div class="ttname"><a href="classSylvanApplication.html">SylvanApplication</a></div><div class="ttdef"><b>Definition:</b> sylvanapp.h:37</div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
 <div class="ttc" id="aclassMainWindow_html"><div class="ttname"><a href="classMainWindow.html">MainWindow</a></div><div class="ttdef"><b>Definition:</b> mainwindow.h:54</div></div>
 <div class="ttc" id="aclassTournamentResultsDialog_html"><div class="ttname"><a href="classTournamentResultsDialog.html">TournamentResultsDialog</a></div><div class="ttdef"><b>Definition:</b> tournamentresultsdlg.h:28</div></div>
 <div class="ttc" id="aclassGameDatabaseManager_html"><div class="ttname"><a href="classGameDatabaseManager.html">GameDatabaseManager</a></div><div class="ttdoc">Manages chess game databases.</div><div class="ttdef"><b>Definition:</b> gamedatabasemanager.h:35</div></div>

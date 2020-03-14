@@ -73,7 +73,7 @@ $(function() {
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;QDate&gt;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;board/side.h&quot;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="code" href="classPgnGameEntry.html">PgnGameEntry</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classPgnGameFilter.html">   39</a></span>&#160;<span class="keyword">class </span>LIB_EXPORT <a class="code" href="classPgnGameFilter.html">PgnGameFilter</a></div>
@@ -98,7 +98,7 @@ $(function() {
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    };</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="classPgnGameFilter.html">PgnGameFilter</a>();</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classPgnGameFilter.html">PgnGameFilter</a>(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; pattern);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classPgnGameFilter.html">PgnGameFilter</a>(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; pattern);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    Type type() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
@@ -116,26 +116,26 @@ $(function() {
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    Result result() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">bool</span> isResultInverted() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordtype">void</span> setPattern(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; pattern);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordtype">void</span> setPattern(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; pattern);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">void</span> setEvent(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; event);</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordtype">void</span> setSite(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; site);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">void</span> setEvent(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; event);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordtype">void</span> setSite(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; site);</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordtype">void</span> setMinDate(<span class="keyword">const</span> QDate&amp; date);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordtype">void</span> setMaxDate(<span class="keyword">const</span> QDate&amp; date);</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordtype">void</span> setMinRound(<span class="keywordtype">int</span> round);</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordtype">void</span> setMaxRound(<span class="keywordtype">int</span> round);</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keywordtype">void</span> setPlayer(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; name, <a class="code" href="classChess_1_1Side.html">Chess::Side</a> side);</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordtype">void</span> setOpponent(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; name);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keywordtype">void</span> setPlayer(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; name, <a class="code" href="classChess_1_1Side.html">Chess::Side</a> side);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordtype">void</span> setOpponent(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; name);</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordtype">void</span> setResult(Result result);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordtype">void</span> setResultInverted(<span class="keywordtype">bool</span> invert);</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    Type m_type;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a> m_pattern;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a> m_event;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a> m_site;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a> m_player;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a> m_opponent;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> m_pattern;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> m_event;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> m_site;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> m_player;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> m_opponent;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="classChess_1_1Side.html">Chess::Side</a> m_playerSide;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    QDate m_minDate;</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    QDate m_maxDate;</div>
@@ -223,7 +223,7 @@ $(function() {
 <div class="ttc" id="aclassPgnGameFilter_html_ab122c7a0183b185c3948c6e7f74c230d"><div class="ttname"><a href="classPgnGameFilter.html#ab122c7a0183b185c3948c6e7f74c230d">PgnGameFilter::result</a></div><div class="ttdeci">Result result() const</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:208</div></div>
 <div class="ttc" id="aclassPgnGameFilter_html_a2154a1f085890f7ede05d23558221fce"><div class="ttname"><a href="classPgnGameFilter.html#a2154a1f085890f7ede05d23558221fce">PgnGameFilter::playerSide</a></div><div class="ttdeci">Chess::Side playerSide() const</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:228</div></div>
 <div class="ttc" id="aclassPgnGameFilter_html_a6af4beffb886c7231d2a9fd6c1f48628"><div class="ttname"><a href="classPgnGameFilter.html#a6af4beffb886c7231d2a9fd6c1f48628">PgnGameFilter::isResultInverted</a></div><div class="ttdeci">bool isResultInverted() const</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:213</div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
 <div class="ttc" id="aclassPgnGameFilter_html_ad7cc174a09c3a21f9bd1c912653923ba"><div class="ttname"><a href="classPgnGameFilter.html#ad7cc174a09c3a21f9bd1c912653923ba">PgnGameFilter::player</a></div><div class="ttdeci">const char * player() const</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:218</div></div>
 <div class="ttc" id="aclassPgnGameFilter_html_adb057a85b9a9cb50b200ef930eb4a37da38f6d0eb3795e56918e0db3f349a6112"><div class="ttname"><a href="classPgnGameFilter.html#adb057a85b9a9cb50b200ef930eb4a37da38f6d0eb3795e56918e0db3f349a6112">PgnGameFilter::EitherPlayerWins</a></div><div class="ttdeci">@ EitherPlayerWins</div><div class="ttdoc">Either player wins.</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:55</div></div>
 <div class="ttc" id="aclassPgnGameFilter_html_adb057a85b9a9cb50b200ef930eb4a37da275e1167d78feffd1b041929a046db63"><div class="ttname"><a href="classPgnGameFilter.html#adb057a85b9a9cb50b200ef930eb4a37da275e1167d78feffd1b041929a046db63">PgnGameFilter::RedWins</a></div><div class="ttdeci">@ RedWins</div><div class="ttdoc">The red player wins.</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:56</div></div>
@@ -238,7 +238,7 @@ $(function() {
 <div class="ttc" id="aclassPgnGameFilter_html_a1c1b0194afd444013bba0e0be80f895ca5801b20e4da84ea592735be4679f62ea"><div class="ttname"><a href="classPgnGameFilter.html#a1c1b0194afd444013bba0e0be80f895ca5801b20e4da84ea592735be4679f62ea">PgnGameFilter::FixedString</a></div><div class="ttdeci">@ FixedString</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:46</div></div>
 <div class="ttc" id="aclassPgnGameFilter_html_a1653bf69dae78cae8d67d0c7953aa206"><div class="ttname"><a href="classPgnGameFilter.html#a1653bf69dae78cae8d67d0c7953aa206">PgnGameFilter::maxDate</a></div><div class="ttdeci">const QDate &amp; maxDate() const</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:193</div></div>
 <div class="ttc" id="aclassPgnGameFilter_html_a0437a4043986b4fd61ceca33d02df4fb"><div class="ttname"><a href="classPgnGameFilter.html#a0437a4043986b4fd61ceca33d02df4fb">PgnGameFilter::event</a></div><div class="ttdeci">const char * event() const</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:178</div></div>
-<div class="ttc" id="aqbytearray_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qbytearray.html">QByteArray</a></div></div>
+<div class="ttc" id="aqbytearray_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qbytearray.html">QByteArray</a></div></div>
 <div class="ttc" id="aclassPgnGameFilter_html_a2340902adf2e46ab2f191ee5ba6d4132"><div class="ttname"><a href="classPgnGameFilter.html#a2340902adf2e46ab2f191ee5ba6d4132">PgnGameFilter::maxRound</a></div><div class="ttdeci">int maxRound() const</div><div class="ttdef"><b>Definition:</b> pgngamefilter.h:203</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -79,7 +79,7 @@ $(function() {
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;QVariant&gt;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;QCoreApplication&gt;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classJsonSerializer.html">   53</a></span>&#160;<span class="keyword">class </span>LIB_EXPORT <a class="code" href="classJsonSerializer.html">JsonSerializer</a></div>
@@ -87,29 +87,29 @@ $(function() {
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    Q_DECLARE_TR_FUNCTIONS(<a class="code" href="classJsonSerializer.html">JsonSerializer</a>)</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="classJsonSerializer.html">JsonSerializer</a>(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a>&amp; data);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordtype">bool</span> serialize(<a class="codeRef" href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a>&amp; stream);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="classJsonSerializer.html">JsonSerializer</a>(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a>&amp; data);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordtype">bool</span> serialize(<a class="codeRef" href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a>&amp; stream);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordtype">bool</span> hasError() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> errorString() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> errorString() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">bool</span> serializeNode(<a class="codeRef" href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a>&amp; stream,</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                   <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a>&amp; node,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">bool</span> serializeNode(<a class="codeRef" href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a>&amp; stream,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                   <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a>&amp; node,</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                   <span class="keywordtype">int</span> indentLevel);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">void</span> setError(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; message);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">void</span> setError(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; message);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordtype">bool</span> m_error;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a> m_data;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> m_errorString;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a> m_data;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> m_errorString;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;};</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif // JSONSERIALIZER_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
-<div class="ttc" id="aqtextstream_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqtextstream_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a></div></div>
 <div class="ttc" id="aclassJsonSerializer_html"><div class="ttname"><a href="classJsonSerializer.html">JsonSerializer</a></div><div class="ttdoc">A JSON (JavaScript Object Notation) serializer.</div><div class="ttdef"><b>Definition:</b> jsonserializer.h:53</div></div>
-<div class="ttc" id="aqvariant_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a></div></div>
+<div class="ttc" id="aqvariant_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

@@ -77,22 +77,22 @@ $(function() {
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="code" href="classImportProgressDialog.html">ImportProgressDialog</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classImportProgressDialog.html">   36</a></span>&#160;<span class="keyword">class </span><a class="code" href="classImportProgressDialog.html">ImportProgressDialog</a> : <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qdialog.html">QDialog</a></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classImportProgressDialog.html">   36</a></span>&#160;<span class="keyword">class </span><a class="code" href="classImportProgressDialog.html">ImportProgressDialog</a> : <span class="keyword">public</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qdialog.html">QDialog</a></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="classImportProgressDialog.html#aa3f6685c6b475a69ecf28c6a4cd8cb82">ImportProgressDialog</a>(<a class="code" href="classPgnImporter.html">PgnImporter</a>* pgnImporter,</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                         <a class="codeRef" href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a>* parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                         <a class="codeRef" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a>* parent = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classImportProgressDialog.html#a711e5d8c862768798082ca17bbfc7d84">~ImportProgressDialog</a>();</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">private</span> slots:</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> onImporterFinished();</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> onImportError(<span class="keywordtype">int</span> error);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> updateImportStatus(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qtime.html">QTime</a>&amp; startTime, <span class="keywordtype">int</span> numReadGames, qint64 numReadBytes);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> updateImportStatus(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qtime.html">QTime</a>&amp; startTime, <span class="keywordtype">int</span> numReadGames, qint64 numReadBytes);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> humaniseTime(<span class="keywordtype">int</span> sec);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> humaniseTime(<span class="keywordtype">int</span> sec);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    qint64 m_totalFileSize;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">int</span> m_lastUpdateSecs;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">bool</span> m_importError;</div>
@@ -103,11 +103,11 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassImportProgressDialog_html_aa3f6685c6b475a69ecf28c6a4cd8cb82"><div class="ttname"><a href="classImportProgressDialog.html#aa3f6685c6b475a69ecf28c6a4cd8cb82">ImportProgressDialog::ImportProgressDialog</a></div><div class="ttdeci">ImportProgressDialog(PgnImporter *pgnImporter, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> importprogressdlg.cpp:26</div></div>
 <div class="ttc" id="aclassImportProgressDialog_html"><div class="ttname"><a href="classImportProgressDialog.html">ImportProgressDialog</a></div><div class="ttdoc">Dialog for PGN database import progress.</div><div class="ttdef"><b>Definition:</b> importprogressdlg.h:36</div></div>
-<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a></div></div>
+<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a></div></div>
 <div class="ttc" id="aclassPgnImporter_html"><div class="ttname"><a href="classPgnImporter.html">PgnImporter</a></div><div class="ttdoc">Reads PGN database in a separate thread.</div><div class="ttdef"><b>Definition:</b> pgnimporter.h:32</div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
-<div class="ttc" id="aqdialog_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qdialog.html">QDialog</a></div></div>
-<div class="ttc" id="aqtime_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qtime.html">QTime</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqdialog_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qdialog.html">QDialog</a></div></div>
+<div class="ttc" id="aqtime_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qtime.html">QTime</a></div></div>
 <div class="ttc" id="aclassImportProgressDialog_html_a711e5d8c862768798082ca17bbfc7d84"><div class="ttname"><a href="classImportProgressDialog.html#a711e5d8c862768798082ca17bbfc7d84">ImportProgressDialog::~ImportProgressDialog</a></div><div class="ttdeci">virtual ~ImportProgressDialog()</div><div class="ttdef"><b>Definition:</b> importprogressdlg.cpp:54</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

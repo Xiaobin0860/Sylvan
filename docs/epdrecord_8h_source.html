@@ -72,30 +72,30 @@ $(function() {
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;QStringList&gt;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;QMap&gt;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classEpdRecord.html">   46</a></span>&#160;<span class="keyword">class </span>LIB_EXPORT <a class="code" href="classEpdRecord.html">EpdRecord</a></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="classEpdRecord.html">EpdRecord</a>();</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">bool</span> parse(<a class="codeRef" href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a>&amp; stream);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span> hasOpcode(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; opcode) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> fen() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qstringlist.html">QStringList</a> operands(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; opcode) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">bool</span> parse(<a class="codeRef" href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a>&amp; stream);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span> hasOpcode(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; opcode) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> fen() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qstringlist.html">QStringList</a> operands(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; opcode) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> m_fen;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="codeRef" href="http://doc.qt.digia.com/latest/qmap.html">QMap&lt;QString, QStringList&gt;</a> m_operations;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> m_fen;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="codeRef" href="https://doc.qt.io/qt-5/qmap.html">QMap&lt;QString, QStringList&gt;</a> m_operations;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;};</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif // EPDRECORD_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassEpdRecord_html"><div class="ttname"><a href="classEpdRecord.html">EpdRecord</a></div><div class="ttdoc">An EPD (Extended Position Description) record.</div><div class="ttdef"><b>Definition:</b> epdrecord.h:46</div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
-<div class="ttc" id="aqtextstream_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a></div></div>
-<div class="ttc" id="aqmap_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qmap.html">QMap&lt; QString, QStringList &gt;</a></div></div>
-<div class="ttc" id="aqstringlist_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstringlist.html">QStringList</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqtextstream_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a></div></div>
+<div class="ttc" id="aqmap_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qmap.html">QMap&lt; QString, QStringList &gt;</a></div></div>
+<div class="ttc" id="aqstringlist_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstringlist.html">QStringList</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

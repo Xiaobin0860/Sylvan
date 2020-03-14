@@ -78,7 +78,7 @@ $(function() {
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;QVariant&gt;</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;QCoreApplication&gt;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classJsonParser.html">   44</a></span>&#160;<span class="keyword">class </span>LIB_EXPORT <a class="code" href="classJsonParser.html">JsonParser</a></div>
@@ -86,11 +86,11 @@ $(function() {
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    Q_DECLARE_TR_FUNCTIONS(<a class="code" href="classJsonParser.html">JsonParser</a>)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="classJsonParser.html">JsonParser</a>(<a class="codeRef" href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a>&amp; stream);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a> parse();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="classJsonParser.html">JsonParser</a>(<a class="codeRef" href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a>&amp; stream);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a> parse();</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordtype">bool</span> hasError() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> errorString() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> errorString() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        qint64 errorLineNumber() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">private</span>:</div>
@@ -112,33 +112,33 @@ $(function() {
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            JsonString</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        };</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keyword">static</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> tokenString(Token type,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                       <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; str = <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>());</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keyword">static</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> tokenString(Token type,</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                       <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; str = <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>());</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        Token parseToken();</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a> parseValue(Token* tokenType = 0);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a> parseObject();</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a> parseArray();</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> parseString();</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordtype">void</span> setError(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; message);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a> parseValue(Token* tokenType = 0);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a> parseObject();</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a> parseArray();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> parseString();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordtype">void</span> setError(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; message);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">void</span> clearError();</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordtype">bool</span> m_error;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        qint64 m_currentLine;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        qint64 m_errorLine;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> m_errorString;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> m_lastToken;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qchar.html">QChar</a> m_buffer;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="codeRef" href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a>&amp; m_stream;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> m_errorString;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> m_lastToken;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qchar.html">QChar</a> m_buffer;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="codeRef" href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a>&amp; m_stream;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;};</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#endif // JSONPARSER_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
-<div class="ttc" id="aqtextstream_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qtextstream.html">QTextStream</a></div></div>
-<div class="ttc" id="aqchar_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qchar.html">QChar</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqtextstream_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qtextstream.html">QTextStream</a></div></div>
+<div class="ttc" id="aqchar_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qchar.html">QChar</a></div></div>
 <div class="ttc" id="aclassJsonParser_html"><div class="ttname"><a href="classJsonParser.html">JsonParser</a></div><div class="ttdoc">A JSON (JavaScript Object Notation) parser.</div><div class="ttdef"><b>Definition:</b> jsonparser.h:44</div></div>
-<div class="ttc" id="aqvariant_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qvariant.html">QVariant</a></div></div>
+<div class="ttc" id="aqvariant_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qvariant.html">QVariant</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

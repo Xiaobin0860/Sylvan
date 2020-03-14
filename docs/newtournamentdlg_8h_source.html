@@ -73,8 +73,8 @@ $(function() {
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;timecontrol.h&gt;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qitemselection.html">QItemSelection</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qitemselection.html">QItemSelection</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">class </span><a class="code" href="classEngineManager.html">EngineManager</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span><a class="code" href="classEngineConfigurationModel.html">EngineConfigurationModel</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span><a class="code" href="classEngineConfigurationProxyModel.html">EngineConfigurationProxyModel</a>;</div>
@@ -85,25 +85,25 @@ $(function() {
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">class </span><a class="code" href="classNewTournamentDialog.html">NewTournamentDialog</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classNewTournamentDialog.html">   39</a></span>&#160;<span class="keyword">class </span><a class="code" href="classNewTournamentDialog.html">NewTournamentDialog</a> : <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qdialog.html">QDialog</a></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classNewTournamentDialog.html">   39</a></span>&#160;<span class="keyword">class </span><a class="code" href="classNewTournamentDialog.html">NewTournamentDialog</a> : <span class="keyword">public</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qdialog.html">QDialog</a></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classNewTournamentDialog.html">NewTournamentDialog</a>(<a class="code" href="classEngineManager.html">EngineManager</a>* engineManager,</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                 <a class="codeRef" href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a>* parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                 <a class="codeRef" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a>* parent = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classNewTournamentDialog.html">NewTournamentDialog</a>();</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="classTournament.html">Tournament</a>* createTournament(<a class="code" href="classGameManager.html">GameManager</a>* gameManager) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> addEngineOnDblClick(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a>&amp; index);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> addEngineOnDblClick(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a>&amp; index);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> addEngine();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> removeEngine();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> configureEngine(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a>&amp; index);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> onVariantChanged(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; variant);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> onPlayerSelectionChanged(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qitemselection.html">QItemSelection</a>&amp; selected,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                  <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qitemselection.html">QItemSelection</a>&amp; deselected);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> configureEngine(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a>&amp; index);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> onVariantChanged(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; variant);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> onPlayerSelectionChanged(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qitemselection.html">QItemSelection</a>&amp; selected,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                  <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qitemselection.html">QItemSelection</a>&amp; deselected);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> moveEngine(<span class="keywordtype">int</span> offset);</div>
@@ -122,15 +122,15 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassNewTournamentDialog_html"><div class="ttname"><a href="classNewTournamentDialog.html">NewTournamentDialog</a></div><div class="ttdef"><b>Definition:</b> newtournamentdlg.h:39</div></div>
 <div class="ttc" id="aclassGameManager_html"><div class="ttname"><a href="classGameManager.html">GameManager</a></div><div class="ttdoc">A class for managing chess games and players.</div><div class="ttdef"><b>Definition:</b> gamemanager.h:41</div></div>
-<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qwidget.html">QWidget</a></div></div>
+<div class="ttc" id="aqwidget_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a></div></div>
 <div class="ttc" id="aclassEngineConfigurationProxyModel_html"><div class="ttname"><a href="classEngineConfigurationProxyModel.html">EngineConfigurationProxyModel</a></div><div class="ttdoc">A proxy model for sorting and filtering engine configurations.</div><div class="ttdef"><b>Definition:</b> engineconfigproxymodel.h:33</div></div>
 <div class="ttc" id="aclassTournament_html"><div class="ttname"><a href="classTournament.html">Tournament</a></div><div class="ttdoc">Base class for chess tournaments.</div><div class="ttdef"><b>Definition:</b> tournament.h:44</div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
 <div class="ttc" id="aclassEngineConfigurationModel_html"><div class="ttname"><a href="classEngineConfigurationModel.html">EngineConfigurationModel</a></div><div class="ttdoc">The EngineConfigurationModel class represents a chess engine configuration based model.</div><div class="ttdef"><b>Definition:</b> engineconfigurationmodel.h:44</div></div>
 <div class="ttc" id="aclassEngineManager_html"><div class="ttname"><a href="classEngineManager.html">EngineManager</a></div><div class="ttdoc">Manages chess engines and their configurations.</div><div class="ttdef"><b>Definition:</b> enginemanager.h:31</div></div>
-<div class="ttc" id="aqitemselection_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qitemselection.html">QItemSelection</a></div></div>
-<div class="ttc" id="aqmodelindex_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qmodelindex.html">QModelIndex</a></div></div>
-<div class="ttc" id="aqdialog_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qdialog.html">QDialog</a></div></div>
+<div class="ttc" id="aqitemselection_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qitemselection.html">QItemSelection</a></div></div>
+<div class="ttc" id="aqmodelindex_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a></div></div>
+<div class="ttc" id="aqdialog_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qdialog.html">QDialog</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

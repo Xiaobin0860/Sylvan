@@ -57,30 +57,30 @@ $(function() {
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;QSqlDatabase&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;QMap&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span><a class="codeRef" href="http://doc.qt.digia.com/latest/qthread.html">QThread</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span><a class="codeRef" href="https://doc.qt.io/qt-5/qthread.html">QThread</a>;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classDatabaseManager.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDatabaseManager.html">DatabaseManager</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">static</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qsqldatabase.html">QSqlDatabase</a> database(<span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>&amp; connectionName = <a class="codeRef" href="http://doc.qt.digia.com/latest/qlatin1string.html">QLatin1String</a>(QSqlDatabase::defaultConnection), <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a> dbName=<span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">static</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qsqldatabase.html">QSqlDatabase</a> database(<span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&amp; connectionName = <a class="codeRef" href="https://doc.qt.io/qt-5/qlatin1string.html">QLatin1String</a>(QSqlDatabase::defaultConnection), <span class="keyword">const</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a> dbName=<span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> clear();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> removeCurrentThread(<a class="codeRef" href="http://doc.qt.digia.com/latest/qstring.html">QString</a>);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> removeCurrentThread(<a class="codeRef" href="https://doc.qt.io/qt-5/qstring.html">QString</a>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">//static QString DBName;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">static</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qmutex.html">QMutex</a> s_databaseMutex;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">static</span> <a class="codeRef" href="http://doc.qt.digia.com/latest/qmap.html">QMap&lt;QString, QMap&lt;QString, QSqlDatabase&gt;</a>&gt; s_instances;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">static</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qmutex.html">QMutex</a> s_databaseMutex;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">static</span> <a class="codeRef" href="https://doc.qt.io/qt-5/qmap.html">QMap&lt;QString, QMap&lt;QString, QSqlDatabase&gt;</a>&gt; s_instances;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aqmutex_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qmutex.html">QMutex</a></div></div>
-<div class="ttc" id="aqthread_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qthread.html">QThread</a></div></div>
-<div class="ttc" id="aqsqldatabase_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qsqldatabase.html">QSqlDatabase</a></div></div>
-<div class="ttc" id="aqstring_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qstring.html">QString</a></div></div>
-<div class="ttc" id="aqlatin1string_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qlatin1string.html">QLatin1String</a></div></div>
+<div class="ttc" id="aqmutex_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qmutex.html">QMutex</a></div></div>
+<div class="ttc" id="aqthread_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qthread.html">QThread</a></div></div>
+<div class="ttc" id="aqsqldatabase_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qsqldatabase.html">QSqlDatabase</a></div></div>
+<div class="ttc" id="aqstring_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qstring.html">QString</a></div></div>
+<div class="ttc" id="aqlatin1string_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qlatin1string.html">QLatin1String</a></div></div>
 <div class="ttc" id="aclassDatabaseManager_html"><div class="ttname"><a href="classDatabaseManager.html">DatabaseManager</a></div><div class="ttdef"><b>Definition:</b> databasemanager.h:13</div></div>
-<div class="ttc" id="aqmap_html"><div class="ttname"><a href="http://doc.qt.digia.com/latest/qmap.html">QMap</a></div></div>
+<div class="ttc" id="aqmap_html"><div class="ttname"><a href="https://doc.qt.io/qt-5/qmap.html">QMap</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">
